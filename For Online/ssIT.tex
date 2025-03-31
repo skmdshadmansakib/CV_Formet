@@ -1,0 +1,186 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+
+% Configure hyperlink appearance
+\hypersetup{
+    colorlinks=false,       % Disable colored links
+    pdfborder={0 0 0},      % No border around links
+    pdfstartview=Fit,       % Start with the PDF fitting the page
+    pdftitle={Your CV}      % Title of the PDF
+}
+
+% Font styling
+\titleformat{\section}{\bfseries\scshape\Large}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\large}{\thesubsection}{1em}{}
+
+% Reduce space between sections
+\titlespacing*{\section}{0pt}{0pt}{10pt}
+\titlespacing*{\subsection}{0pt}{0pt}{10pt}
+
+% Name and contact details
+\newcommand{\namesection}[2]{
+    \centering
+    {\Huge \textbf{\fontseries{b}\selectfont #1}}\\[0.5em]  % Bigger and bolder name
+    \noindent\rule{\linewidth}{1pt}  % Full-width horizontal line
+    \\[1em]
+    \noindent
+    \begin{tabbing}
+        \hspace{3em} \= \hspace{1em} \= \hspace{1em} \= \hspace{1em} \= \kill 
+        \> \href{mailto:skmdshadmansakib@gmail.com}{\textbf{Email}} \hspace{2em} \= \textbf{\vrule height 3ex width 1pt} \hspace{2em} \=
+        \href{tel:+8801768801100}{\textbf{Phone}} \hspace{2em} \= \textbf{\vrule height 3ex width 1pt} \hspace{2em} \=
+        \href{https://linkedin.com/in/skmdshadmansakib}{\textbf{LinkedIn}} \hspace{2em} \= \textbf{\vrule height 3ex width 1pt} \hspace{2em} \=
+        \href{https://github.com/shadmans804}{\textbf{GitHub}} \hspace{2em} \= \textbf{\vrule height 3ex width 1pt} \hspace{2em} \=
+        \href{https://maps.app.goo.gl/yw34AmPq6qC1ZqJu8}{\textbf{Rajshahi}} \hspace{2em} \\
+    \end{tabbing}
+}
+
+% Document
+\begin{document}
+
+% Name and Contact Information
+\namesection{\textbf{SK MD Shadman Sakib}}{}
+
+
+
+% Overall Summary Section inside a rounded box
+\begin{tcolorbox}[colback=white, colframe=black, arc=3mm, boxrule=0.5mm, width=\textwidth]
+    {\Large \textbf{Overall Summary}}
+\end{tcolorbox}
+
+\begin{itemize}
+    \item {Strong coding skill in Python, Java.}
+    \item {Efficient in Python application using Python related technologies such as Flask and Django.}
+    \item {Skilled in developing GUI applications using Tkinter, Pyqt, and PyGTK.}
+    \item {Expert in object-oriented analysis, design, development, implementation of software using Python.}
+    \item {Skilled in developing web pages using MySQL, HTML, CSS, JavaScript, and React.}
+    \item {Knowledgeable in CMS (Content Management System) framework (i.e., Django).}
+    \item {Knowledge in server-side open-source scripting language (e.g. Python) and open-source database platform (e.g. MongoDB).}
+    \item {Knowledge in Data Science using Jupyter Notebook and Python libraries (e.g., NumPy, Pandas, Matplotlib, Seaborn, TensorFlow, Keras).}
+\end{itemize}
+
+\hspace{1cm}
+
+% Skills
+\begin{tcolorbox}[colback=white, colframe=black, arc=3mm, boxrule=0.5mm, width=\textwidth]
+    {\Large \textbf{Technical Skills}}
+\end{tcolorbox}
+
+\begin{itemize}
+    \item {Core Programming Language: Python, Assembly, C, C++, Java, MATLAB.}
+    \item {Programming Framework: Angular, WordPress, Laravel, Django.}
+    \item {Skilled in developing GUI applications using Tkinter, Pyqt, and PyGTK.}
+    \item {Web Programming Platform: HTML, CSS, JavaScript, Python.}
+    \item {Version Control System Platform: Git.}
+    \item {Designing Platform: Figma, AutoCAD.}
+    \item {Project Management Tool: GitHub Project Management, ClickUp.}
+    \item {Database Platform: SQL, MongoDB.}
+    \item {Mobile Application Platform: Java, Kotlin.}
+\end{itemize}
+
+% Education Section
+\begin{tcolorbox}[colback=white, colframe=black, arc=3mm, boxrule=0.5mm, width=\textwidth]
+    {\Large \textbf{Education}}
+\end{tcolorbox}
+
+\begin{flushleft}
+    \begin{itemize}
+    \item {Master of Science in Information Technology} \\ [0.5em]
+    \end{itemize}
+    \hspace{0.5in}
+    {Jahangirnagar University, Dhaka, Bangladesh} \hfill {2022 -- 2024} \\ [0.5em]
+    \hspace{0.7in} \hfill {CGPA: 3.29}
+
+\end{flushleft}
+
+
+
+\begin{flushleft}
+    \begin{itemize}
+    \item {Bachelor of Science in Electrical and Electronics Engineering} \\ [0.5em]
+    \end{itemize}
+    \hspace{0.5in}
+    {Varendra University, Rajshahi, Bangladesh} \hfill { 2018 --  2022} \\ [0.5em]
+    \hspace{0.7in} \hfill {CGPA: 2.92}
+\end{flushleft}
+
+
+
+\begin{tcolorbox}[colback=white, colframe=black, arc=3mm, boxrule=0.5mm, width=\textwidth]
+    {\Large \textbf{Professional Experiences}}
+\end{tcolorbox}
+
+\begin{itemize}
+
+    \item NESCO  \hfill { August 2023 --  November 2023} \\[0.5em] 
+    \begin{enumerate}[label=\Roman*.]
+    \item {Designation:} Assistant Engineer \\[0.5em]
+      \begin{itemize}
+        \item {Manage, observe, and teach new GIS technology to user and technician. \\[1em]}
+        \item {Test and run the GIS technology and observe it. \\[1em]}
+        \item {Teaching consumers how to use it and technicians as well. \\[1em]}
+        \item {Observe their use of GIS technology. \\[1em]}
+        \item {Find the bug and report it to the software company. \\[1em]}
+      \end{itemize}
+    \end{enumerate}
+
+    \vspace{1em}
+
+    
+
+
+\end{itemize}
+
+\begin{tcolorbox}[colback=white, colframe=black, arc=3mm, boxrule=0.5mm, width=\textwidth]
+    {\Large \textbf{Experiences in University Projects}}
+\end{tcolorbox}
+
+\begin{itemize}
+
+    \vspace{1em}
+    
+    \item {Software Engineer (Jahangirnagar University)}  \hfill { 2022 --  2024} \\[0.5em] 
+    \begin{enumerate}[label=\Roman*.]
+        \item {Project Name:} Ecommerce website \\[0.5em]
+              \begin{itemize}[]
+                  \item {Environment:} HTML, CSS, JavaScript, framer motion \\[0.5em]
+                  \item {Assignment:} Design interface, implement admin panel with function- add, remove, update category and items, user add, remove items also payment, method, analysis. \\[1em]
+              \end{itemize}
+        \item {Project Name:} Library Management System \\[0.5em]
+              \begin{itemize}[]
+                  \item {Environment:} SQL, Java \\[0.5em]
+                  \item {Assignment:} Design interface, admin panel to add, update, remove book, Users can buy or rent books. \\[1em]
+              \end{itemize}
+        \item {Project Name:} Design Hospital System Network Design \\[0.5em]
+              \begin{itemize}[]
+                  \item {Environment:} Cisco \\[0.5em]
+                  \item {Assignment:} Hierarchical Network Design, Host Device Configurations, Configuring ISP routers, VLANs and assigning ports VLAN numbers, subnetting and IP addresses, Test and verifying network communication. \\[1em]
+              \end{itemize}
+        \item {Project Name:} Weather forecast \\[0.5em]
+              \begin{itemize}[]
+                  \item {Languages:} Android Studio, Java \\[0.5em]
+                  \item {Assignment:} Design and implementation real-time weather forecast and alert System. \\[1em]
+              \end{itemize}
+        \item {Project Name:} Software testing \\[0.5em]
+              \begin{itemize}[]
+                  \item {Languages:} Java \\[0.5em]
+                  \item {Assignment:} Unit, smoke, performance, system, load, API testing of a website.
+              \end{itemize}
+    \end{enumerate}
+\end{itemize}
+
+\begin{tcolorbox}[colback=white, colframe=black, arc=3mm, boxrule=0.5mm, width=\textwidth]
+    {\Large \textbf{Publications}}
+\end{tcolorbox}
+
+\begin{enumerate}
+    \item \href{https://doi.org/10.51583/IJLTEMAS.2025.14020013}{IR Communication-Based Alternative Horn Signaling System for Vehicles to Reduce Sound Pollution URL: https://doi.org/10.51583/IJLTEMAS.2025.14020013} \hfill {March 2025}
+\end{enumerate}
+
+
+\end{document}
